@@ -1,0 +1,29 @@
+{
+    "MDP": {
+        "name": "<class '__main__.tfeMDP'>",
+        "params": null
+    },
+    "AGENTS": {
+        "<class 'simple_rl.agents.QLearningAgentClass.QLearningAgent'>": {
+            "params": {
+                "alpha": 0.1,
+                "gamma": 0.99,
+                "epsilon": 0.1,
+                "anneal": false,
+                "explore": "uniform"
+            },
+            "index": 0
+        },
+        "<class 'simple_rl.agents.RandomAgentClass.RandomAgent'>": {
+            "params": {},
+            "index": 1
+        }
+    },
+    "MISC": {
+        "instances": 5,
+        "episodes": 1000,
+        "steps": 1000,
+        "track_disc_reward": false
+    },
+    "FUNC": "run_agents_on_mdp"
+}
