@@ -57,26 +57,26 @@ The 2048 rl project initially began after a failed attempt at another project be
 
 
  ##  Change Log
-__*01/26/19: Version 1.0*__
+__*01/26/19: Version 1.0.0*__
 - Hack @ Brown first day where the initial 2048 game was created and then 
       the architecture of rthe tfeMDP were initialized where we were able to get 
       basic functionality of the game and basic functionality of the MDP
 
-__*01/27/19: Version 1.1*__
+__*01/27/19: Version 1.1.0*__
 - Hack @ Brown second day where changed game to run underneath with numpy
       arrays, getting rid of most of the bad runtime code that was written 
       beforehand.
 - tfeMDP fixed such that it actually produced graphs rather than a blank
       graph without any information on it.
 
-__*01/28/19: Version 1.2*__
+__*01/28/19: Version 1.2.0*__
 - Worked to fix the tfeMDP reward function because it seems as if the rl
       agent was performing only linearly better than the random agent in
       choosing the correct moves to maximize its score.
 - To make sure that the game worked by itself, tried to implement a text 
       version of the game that could be played on the console.
 
-__*06/18/19: Version 1.3*__
+__*06/18/19: Version 1.3.0*__
 - Formally documented in PEP-8 and files separated such that it represents 
       a repository rather than one singular file. README was started
 - Beginning to work on a pygame GUI for the 2048 game in order to get a 
